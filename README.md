@@ -1,5 +1,5 @@
 
-# ETL-PowerBIVisualisation-InternetSales
+# ETL-PowerBIvisualisation-InternetSales
 
 
 
@@ -16,9 +16,9 @@ In this project, I extract data from AdventureWorksDW 2022 databases, perform tr
 
 1. Data Cleansing and Transformation	
    
- -* Extracting Data
+  * Extracting Data
      
- -* Handling Null Value and Transformation	
+  * Handling Null Value and Transformation	
 
 3. Data Modelling
 
