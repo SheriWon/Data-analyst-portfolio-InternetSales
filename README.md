@@ -94,7 +94,7 @@ This data model configuration is a foundation for in-depth analysis and visualiz
 
 * A comprehensive Power BI dashboard integrates sales data, featuring a sales overview and detailed views showcasing sales trends per customer and product over time. This implementation included 3 KPIs, over ten slicers, reducing data processing time by 20%.
 * Collaboration across sales teams transformed insights into actionable strategies, fostering real-time decision-making.
-![](https://app.powerbi.com/view?r=eyJrIjoiMzEzZjk4MzEtYWJhMC00NTlhLWJjMjEtNmYyYTYzZTRmZDhlIiwidCI6ImFiYTgxYzhkLTNlYWUtNDg1OS1hYTBhLTlmNGE5ZTAxMmU0NiJ9)
+Check out [Powe BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzEzZjk4MzEtYWJhMC00NTlhLWJjMjEtNmYyYTYzZTRmZDhlIiwidCI6ImFiYTgxYzhkLTNlYWUtNDg1OS1hYTBhLTlmNGE5ZTAxMmU0NiJ9)
 
 ## Requirements
 * Language
@@ -108,9 +108,7 @@ This data model configuration is a foundation for in-depth analysis and visualiz
 
     - Key Performance Indicator, Gap Analysis, SWOT Analysis, Value Chain Analysis, Cost-Benefit Analysis
 
-*Data Source Files
-
- https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
+*[Data Source Files](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
 
 
