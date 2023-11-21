@@ -85,7 +85,7 @@ Measures for Analysis: Three key measures have been formulated to analyze the re
 * Gap of Sales: Derived by computing the variance between the Total Sales and Total Budget measures, highlighting the disparity or surplus between actual sales and the allocated budget.
 
  
-![](datamodelling.png)
+![DM](https://github.com/SheriWon/ETL-PowerBIVisualisation-InternetSales/blob/main/data%20modelling.png)
 
 This data model configuration is a foundation for in-depth analysis and visualization within Power BI. The established relationships and formulated measures empower users to explore, compare, and interpret actual sales performance against budgetary allocations. Insights drawn from these measures enable informed decision-making, facilitating strategies to bridge gaps or leverage surplus for enhanced business outcomes.
 
