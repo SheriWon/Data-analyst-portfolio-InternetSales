@@ -14,11 +14,11 @@ In this project, I extract data from AdventureWorksDW 2022 databases, perform tr
 
 1. Business Request & User Stories
 
-1. Data cleansing and transformation	
+1. Data Cleansing and Transformation	
    
-* Extracting data
+ -* Extracting Data
      
-* Handling null value and transformation	
+ -* Handling Null Value and Transformation	
 
 3. Data Modelling
 
@@ -38,12 +38,12 @@ In this project, I extract data from AdventureWorksDW 2022 databases, perform tr
 
 
 
-## Data cleansing and transformation 
+## Data Cleansing and Transformation 
 
 The following tables were extracted using SQL to build the necessary data model for doing analysis and fulfilling the business needs defined in the user stories.
 One data source (sales budget) was provided in spreadsheets and connected to the data model later in the process.
 
-**Extracting data:**
+**Extracting Data:**
 
 * Dim_Calendar table: transform data type (month, weekly)
 ```
@@ -72,7 +72,7 @@ WHERE
 * Fact_InternetSales table: Extract data 2 years before the current year, the column field from *[ProductKey],   [OrderDateKey],  [DueDateKey],  [ShipDateKey],  [CustomerKey], [SalesOrderNumber], [SalesAmount]*
 
 
-**Handling null value and transformation:**
+**Handling Null Value and Transformation:**
 
 * Replacing 209 null values (firstly, product category and subcategory replace to components regarding product name. Secondly, the subcategory null value with “other”. Finally, replace null value in the product colour, size, model name, and description column field as N/A)
 * Transformed customer city data into city categories for analysis and categorization.
