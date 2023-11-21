@@ -108,7 +108,7 @@ Check out [Powe BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzEzZjk4MzE
 
     - Key Performance Indicator, Gap Analysis, SWOT Analysis, Value Chain Analysis, Cost-Benefit Analysis
 
-*[Data Source Files](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
+* [Data Source Files](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)
 
 
 
