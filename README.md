@@ -94,12 +94,12 @@ This data model configuration is a foundation for in-depth analysis and visualiz
 
 * A comprehensive Power BI dashboard integrates sales data, featuring a sales overview and detailed views showcasing sales trends per customer and product over time. This implementation included 3 KPIs, over ten slicers, reducing data processing time by 20%.
 * Collaboration across sales teams transformed insights into actionable strategies, fostering real-time decision-making.
-
+![](https://app.powerbi.com/view?r=eyJrIjoiMzEzZjk4MzEtYWJhMC00NTlhLWJjMjEtNmYyYTYzZTRmZDhlIiwidCI6ImFiYTgxYzhkLTNlYWUtNDg1OS1hYTBhLTlmNGE5ZTAxMmU0NiJ9)
 
 ## Requirements
 * Language
     
-    - SQL (Select, Where, left Join, Union, Case When, Order By, TOP N)
+    - SQL (Select, Where, Left Join, Union, Case When, Order By, TOP N)
 
 * Visualisation tool
 
