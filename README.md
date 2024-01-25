@@ -16,9 +16,9 @@ In this project, I extract data from AdventureWorksDW 2022 databases, perform tr
 
 [2. Data Cleansing and Transformation](#2-Data-Cleansing-and-Transformation)	
    
-   [2.1 Extracting Data](#2.1-Extracting-Data)
+   - [2.1 Extracting Data](#2.1-Extracting-Data)
      
-   [2.2 Handling Null Value and Transformation](#2.2-Handling-Null-Value-and-Transformation)	
+   - [2.2 Handling Null Value and Transformation](#2.2-Handling-Null-Value-and-Transformation)	
 
 [3. Data Modelling](#3-Data-Modelling)
 
@@ -26,7 +26,7 @@ In this project, I extract data from AdventureWorksDW 2022 databases, perform tr
 
 [5. Requirements](#5-Requirements)
 
-## Business Request & User Stories
+## 1. Business Request & User Stories
 
 | As a(role) |I want(request/demand) | So that I (user value)| Acceptance criteria |
 | :---:        |     :---:      |         :---: | :---:|
@@ -38,12 +38,12 @@ In this project, I extract data from AdventureWorksDW 2022 databases, perform tr
 
 
 
-## Data Cleansing and Transformation 
+## 2. Data Cleansing and Transformation
 
 The following tables were extracted using SQL to build the necessary data model for doing analysis and fulfilling the business needs defined in the user stories.
 One data source (sales budget) was provided in spreadsheets and connected to the data model later in the process.
 
-**Extracting Data:**
+**2.1 Extracting Data**
 
 * Dim_Calendar table: transform data type (month, weekly)
 ```
@@ -72,11 +72,11 @@ WHERE
 * Fact_InternetSales table: Extract data 2 years before the current year, the column field from *[ProductKey],   [OrderDateKey],  [DueDateKey],  [ShipDateKey],  [CustomerKey], [SalesOrderNumber], [SalesAmount]*
 
 
-**Handling Null Value and Transformation:**
+**2.2 Handling Null Value and Transformation**
 
 * Replacing 209 null values (firstly, product category and subcategory replace to components regarding product name. Secondly, the subcategory null value with “other”. Finally, replace null value in the product colour, size, model name, and description column field as N/A)
 * Transformed customer city data into city categories for analysis and categorization.
-## Data Modelling 
+## 3. Data Modelling
 
 Measures for Analysis: Three key measures have been formulated to analyze the relationship between actual sales and sales budget:
 
@@ -90,13 +90,13 @@ Measures for Analysis: Three key measures have been formulated to analyze the re
 This data model configuration is a foundation for in-depth analysis and visualization within Power BI. The established relationships and formulated measures empower users to explore, compare, and interpret actual sales performance against budgetary allocations. Insights drawn from these measures enable informed decision-making, facilitating strategies to bridge gaps or leverage surplus for enhanced business outcomes.
 
 
-## Visualisation
+## 4. Visualisation
 
 * A comprehensive Power BI dashboard integrates sales data, featuring a sales overview and detailed views showcasing sales trends per customer and product over time. This implementation included 3 KPIs, over ten slicers, reducing data processing time by 20%.
 * Collaboration across sales teams transformed insights into actionable strategies, fostering real-time decision-making.
 Check out [Powe BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMzEzZjk4MzEtYWJhMC00NTlhLWJjMjEtNmYyYTYzZTRmZDhlIiwidCI6ImFiYTgxYzhkLTNlYWUtNDg1OS1hYTBhLTlmNGE5ZTAxMmU0NiJ9)
 
-## Requirements
+## 5. Requirements
 * Language
     
     - SQL (Select, Where, Left Join, Union, Case When, Order By, TOP N)
