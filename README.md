@@ -12,19 +12,19 @@ In this project, I extract data from AdventureWorksDW 2022 databases, perform tr
 
 ## Table of Contents
 
-1. Business Request & User Stories
+[1. Business Request & User Stories](#1-Business-Request-&-User-Stories)
 
-1. Data Cleansing and Transformation	
+[2. Data Cleansing and Transformation](#2-Data-Cleansing-and-Transformation)	
    
-   - Extracting Data
+   [2.1 Extracting Data](#2.1-Extracting-Data)
      
-   - Handling Null Value and Transformation	
+   [2.2 Handling Null Value and Transformation](#2.2-Handling-Null-Value-and-Transformation)	
 
-3. Data Modelling
+[3. Data Modelling](#3-Data-Modelling)
 
-1. Visualisation	
+[4. Visualisation](#4-Visualisation)	
 
-1. Requirements
+[5. Requirements](#5-Requirements)
 
 ## Business Request & User Stories
 
